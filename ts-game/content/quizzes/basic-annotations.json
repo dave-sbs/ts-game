@@ -1,0 +1,77 @@
+{
+  "id": "basic-annotations-quiz",
+  "topic": "basic-annotations",
+  "title": "Basic Annotations Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which of the following is the correct way to annotate a number variable?",
+      "options": [
+        "let age: Number = 25;",
+        "let age: number = 25;",
+        "let age = number(25);",
+        "let number age = 25;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In TypeScript, primitive types use lowercase: string, number, boolean. The uppercase versions (String, Number, Boolean) refer to JavaScript wrapper objects.",
+      "xp": 20
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What does the `any` type do?",
+      "options": [
+        "Restricts the variable to any single type",
+        "Creates a type that can only be null or undefined",
+        "Disables type checking for that variable",
+        "Automatically infers the best type"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The `any` type disables type checking. A variable of type `any` can be assigned any value without TypeScript errors, but this defeats the purpose of using TypeScript.",
+      "xp": 20
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "How do you annotate a function parameter?",
+      "options": [
+        "function greet(name): string {}",
+        "function greet(string name) {}",
+        "function greet(name: string) {}",
+        "function greet<string>(name) {}"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Function parameters are annotated using a colon after the parameter name, followed by the type: `parameterName: Type`.",
+      "xp": 20
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What is type inference in TypeScript?",
+      "options": [
+        "When you must always specify types explicitly",
+        "When TypeScript automatically determines types from context",
+        "When types are checked at runtime",
+        "When types are imported from other files"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Type inference is TypeScript's ability to automatically determine types based on the values assigned or the context. For example, `let x = 5` infers `x` as `number`.",
+      "xp": 20
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which is the correct way to type an array of strings?",
+      "options": [
+        "let arr: string = [];",
+        "let arr: string[] = [];",
+        "let arr: [string] = [];",
+        "let arr: strings = [];"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Arrays are typed using `Type[]` syntax. `string[]` means an array of strings. `[string]` would be a tuple with exactly one string element.",
+      "xp": 20
+    }
+  ]
+}

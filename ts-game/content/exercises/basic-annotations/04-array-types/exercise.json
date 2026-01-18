@@ -1,0 +1,19 @@
+{
+  "id": "basic-04",
+  "title": "Array Type Annotations",
+  "topic": "basic-annotations",
+  "zone": "foundations",
+  "difficulty": 2,
+  "xpBase": 75,
+  "xpBonus": {
+    "noHints": 30,
+    "fastCompletion": 20
+  },
+  "description": "Add type annotations to array variables and function parameters that accept arrays.",
+  "hints": [
+    "Arrays are typed with Type[] syntax, e.g., number[] or string[]",
+    "You can also use Array<Type> syntax",
+    "Look at the array contents to determine the element type"
+  ],
+  "timeLimit": 300
+}

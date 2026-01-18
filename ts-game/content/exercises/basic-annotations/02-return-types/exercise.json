@@ -1,0 +1,19 @@
+{
+  "id": "basic-02",
+  "title": "Add Return Types",
+  "topic": "basic-annotations",
+  "zone": "foundations",
+  "difficulty": 1,
+  "xpBase": 50,
+  "xpBonus": {
+    "noHints": 25,
+    "fastCompletion": 15
+  },
+  "description": "Add explicit return type annotations to the functions.",
+  "hints": [
+    "Return types are added after the parameter list with a colon",
+    "The add function returns a number, isAdult returns a boolean",
+    "Syntax: function name(params): ReturnType { ... }"
+  ],
+  "timeLimit": 300
+}
