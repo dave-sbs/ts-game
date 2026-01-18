@@ -1,0 +1,159 @@
+{
+  "zones": [
+    {
+      "id": "foundations",
+      "name": "Foundations",
+      "description": "Basic TypeScript types and annotations - the building blocks of type safety",
+      "icon": "🏛️",
+      "color": "blue",
+      "topics": ["basic-annotations", "object-literals", "type-aliases", "arrays-tuples", "typing-functions"],
+      "prerequisites": []
+    },
+    {
+      "id": "unions-narrowing",
+      "name": "Unions & Narrowing",
+      "description": "Union types, literal types, and type guards for precise type control",
+      "icon": "🔀",
+      "color": "green",
+      "topics": ["unions-literals", "narrowing", "unknown-never", "discriminated-unions"],
+      "prerequisites": ["foundations"]
+    },
+    {
+      "id": "objects",
+      "name": "Objects",
+      "description": "Advanced object types, interfaces, and utility types",
+      "icon": "📦",
+      "color": "purple",
+      "topics": ["extending-objects", "dynamic-keys", "utility-types"],
+      "prerequisites": ["foundations"]
+    },
+    {
+      "id": "mutability",
+      "name": "Mutability",
+      "description": "Readonly properties, const assertions, and immutability patterns",
+      "icon": "🔒",
+      "color": "orange",
+      "topics": ["readonly-properties", "as-const"],
+      "prerequisites": ["unions-narrowing"]
+    },
+    {
+      "id": "classes",
+      "name": "Classes",
+      "description": "Class-based OOP with TypeScript - constructors, visibility, and inheritance",
+      "icon": "🏗️",
+      "color": "indigo",
+      "topics": ["class-basics", "class-properties", "inheritance"],
+      "prerequisites": ["objects"]
+    },
+    {
+      "id": "ts-features",
+      "name": "TS Features",
+      "description": "TypeScript-specific features - enums, namespaces, and parameter properties",
+      "icon": "⚡",
+      "color": "yellow",
+      "topics": ["enums", "namespaces", "parameter-properties"],
+      "prerequisites": ["mutability", "classes"]
+    },
+    {
+      "id": "deriving-types",
+      "name": "Deriving Types",
+      "description": "keyof, typeof, indexed access types, and type transformations",
+      "icon": "🔄",
+      "color": "teal",
+      "topics": ["keyof-typeof", "indexed-access", "function-types"],
+      "prerequisites": ["ts-features"]
+    },
+    {
+      "id": "assertions",
+      "name": "Assertions",
+      "description": "Type assertions, satisfies operator, and error suppression",
+      "icon": "✅",
+      "color": "rose",
+      "topics": ["as-assertion", "satisfies", "error-suppression"],
+      "prerequisites": ["ts-features"]
+    },
+    {
+      "id": "weird-parts",
+      "name": "Weird Parts",
+      "description": "Edge cases, gotchas, and surprising TypeScript behaviors",
+      "icon": "🤔",
+      "color": "violet",
+      "topics": ["evolving-any", "excess-properties", "empty-object"],
+      "prerequisites": ["deriving-types", "assertions"]
+    },
+    {
+      "id": "modules",
+      "name": "Modules",
+      "description": "Modules, scripts, and declaration files",
+      "icon": "📁",
+      "color": "sky",
+      "topics": ["modules-scripts", "declaration-files", "global-types"],
+      "prerequisites": ["weird-parts"]
+    },
+    {
+      "id": "type-design",
+      "name": "Type Design",
+      "description": "Generic types, template literals, conditional types, and mapped types",
+      "icon": "🎨",
+      "color": "fuchsia",
+      "topics": ["generic-types", "template-literals", "conditional-types", "mapped-types"],
+      "prerequisites": ["weird-parts"]
+    },
+    {
+      "id": "utility-patterns",
+      "name": "Utility Patterns",
+      "description": "Generic functions, type predicates, assertion functions, and overloads",
+      "icon": "🛠️",
+      "color": "amber",
+      "topics": ["generic-functions", "type-predicates", "assertion-functions", "overloads"],
+      "prerequisites": ["modules", "type-design"]
+    }
+  ],
+  "topics": [
+    {
+      "id": "basic-annotations",
+      "name": "Basic Annotations",
+      "description": "Function parameters, variables, and basic types",
+      "zone": "foundations",
+      "exercises": ["basic-01", "basic-02", "basic-03", "basic-04", "basic-05"],
+      "lessonFile": "basic-annotations.md",
+      "quizFile": "basic-annotations.json"
+    },
+    {
+      "id": "object-literals",
+      "name": "Object Literals",
+      "description": "Object type definitions and optional properties",
+      "zone": "foundations",
+      "exercises": ["object-01", "object-02", "object-03", "object-04", "object-05"],
+      "lessonFile": "object-literals.md",
+      "quizFile": "object-literals.json"
+    },
+    {
+      "id": "type-aliases",
+      "name": "Type Aliases",
+      "description": "Creating and sharing type aliases",
+      "zone": "foundations",
+      "exercises": ["alias-01", "alias-02", "alias-03", "alias-04", "alias-05"],
+      "lessonFile": "type-aliases.md",
+      "quizFile": "type-aliases.json"
+    },
+    {
+      "id": "arrays-tuples",
+      "name": "Arrays & Tuples",
+      "description": "Array annotations and tuple types",
+      "zone": "foundations",
+      "exercises": ["array-01", "array-02", "array-03", "array-04", "array-05"],
+      "lessonFile": "arrays-tuples.md",
+      "quizFile": "arrays-tuples.json"
+    },
+    {
+      "id": "typing-functions",
+      "name": "Typing Functions",
+      "description": "Function types, optional parameters, and rest parameters",
+      "zone": "foundations",
+      "exercises": ["func-01", "func-02", "func-03", "func-04", "func-05"],
+      "lessonFile": "typing-functions.md",
+      "quizFile": "typing-functions.json"
+    }
+  ]
+}

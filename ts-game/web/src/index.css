@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-slate-900 text-white min-h-screen;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-600 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-500;
+}
+
+/* Markdown styling */
+.prose {
+  @apply text-slate-200;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply text-white font-bold;
+}
+
+.prose code {
+  @apply bg-slate-800 px-1.5 py-0.5 rounded text-ts-blue;
+}
+
+.prose pre {
+  @apply bg-slate-800 p-4 rounded-lg overflow-x-auto;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0;
+}
+
+.prose a {
+  @apply text-ts-blue hover:underline;
+}
+
+.prose ul, .prose ol {
+  @apply ml-4;
+}
+
+.prose li {
+  @apply my-1;
+}

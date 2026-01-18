@@ -1,0 +1,19 @@
+{
+  "id": "basic-05",
+  "title": "Mixed Type Challenge",
+  "topic": "basic-annotations",
+  "zone": "foundations",
+  "difficulty": 2,
+  "xpBase": 100,
+  "xpBonus": {
+    "noHints": 40,
+    "fastCompletion": 25
+  },
+  "description": "A comprehensive exercise combining all basic annotation concepts. Add types to variables, parameters, and return values.",
+  "hints": [
+    "Start with the simple variables at the top",
+    "Functions can return different types - look at what each returns",
+    "The processOrder function has multiple parameters of different types"
+  ],
+  "timeLimit": 600
+}

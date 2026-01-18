@@ -1,0 +1,19 @@
+{
+  "id": "basic-01",
+  "title": "Annotate Function Parameters",
+  "topic": "basic-annotations",
+  "zone": "foundations",
+  "difficulty": 1,
+  "xpBase": 50,
+  "xpBonus": {
+    "noHints": 25,
+    "fastCompletion": 15
+  },
+  "description": "Add type annotations to the function parameters so TypeScript knows what types to expect.",
+  "hints": [
+    "Look at how the function is being called - what values are passed?",
+    "The first parameter receives a string, the second receives a number",
+    "Use `: string` and `: number` after the parameter names"
+  ],
+  "timeLimit": 300
+}

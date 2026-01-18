@@ -1,0 +1,19 @@
+{
+  "id": "basic-03",
+  "title": "Variable Type Annotations",
+  "topic": "basic-annotations",
+  "zone": "foundations",
+  "difficulty": 1,
+  "xpBase": 50,
+  "xpBonus": {
+    "noHints": 25,
+    "fastCompletion": 15
+  },
+  "description": "Add type annotations to the variable declarations.",
+  "hints": [
+    "Variable types are added after the variable name with a colon",
+    "Look at the values assigned to determine the types",
+    "Use string, number, and boolean for primitive types"
+  ],
+  "timeLimit": 300
+}
